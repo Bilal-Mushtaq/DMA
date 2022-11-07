@@ -468,8 +468,14 @@
     rgba(24, 30, 78, 0.8) 99.99%,
     rgba(0, 28, 255, 0.8) 100%
   );
+  display: flex;
+  flex-direction: column;
 }
-
+.item10 .overlay img {
+  vertical-align: middle;
+    align-self: center;
+    padding-bottom: 2rem;
+}
 .grid-container .item11 {
   background-image: url(//images.ctfassets.net/bete4dit0n31/EWAndEsW0ahiw5qL3ZPQL/faa4f626555702f11ca37b21cb5cf88b/Rectangle_8113__2_.png);
   background-size: cover;
