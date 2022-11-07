@@ -218,15 +218,19 @@
 }
 .list-card-yellow {
   border-left: 0.5rem solid #ffa600;
+  border-bottom: 1px solid rgb(229 231 235);
 }
 .list-card-darkblue {
   border-left: 0.5rem solid #071e3e;
+  border-bottom: 1px solid rgb(229 231 235);
 }
 .list-card-lightblue {
   border-left: 0.5rem solid #00b4ee;
+  border-bottom: 1px solid rgb(229 231 235);
 }
 .list-card-red {
   border-left: 0.5rem solid #b00500;
+  border-bottom: 1px solid rgb(229 231 235);
 }
 
 .list-card p,
@@ -780,6 +784,10 @@ input[type="text"]:focus {
   object-position: center;
   width: 8rem;
   height: 2rem;
+  filter: grayscale(100);
+}
+.clients-sec img:hover {
+  filter: grayscale(0);
 }
 
 .footer-container {
@@ -887,7 +895,7 @@ input[type="text"]:focus {
 }
 .call-content {
   display: flex;
-  width: 50%;
+  width: 80%;
   margin: auto;
   padding: 1rem 0rem;
   gap: 1rem;
