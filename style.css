@@ -83,6 +83,14 @@
   width: 80%;
   margin: auto;
 }
+.navbar-item {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-item i {
+  color: white;
+  display: none;
+}
 .navbar-sec a {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
@@ -1009,7 +1017,7 @@ input[type="text"]:focus {
     width: 100%;
     background: #071e3e;
     gap: 3rem;
-    padding: 2rem 10rem;
+    padding: 2rem 6rem;
   }
   .navbar-items a {
     color: white;
@@ -1018,7 +1026,9 @@ input[type="text"]:focus {
     display: block;
     margin-left: -1rem;
   }
-
+  .navbar-item i {
+    display: block;
+  }
   .txt-sec {
     margin: 4rem 0rem 1rem 0rem;
     padding: 0rem 1rem 1rem 0rem;
