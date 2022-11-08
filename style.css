@@ -568,13 +568,14 @@
   align-items: center;
   width: 100%;
   display: flex;
-  font-family: inherit;
+  font-family: 'Lato';
   border: none;
   margin: 1rem;
   opacity: 0.7rem;
 }
-.form input[type="text"]::placeholder {
-  opacity: 0.2rem;
+.form input::placeholder {
+  opacity: 0.8;
+  color: rgb(143, 136, 136);
 }
 .form .name,
 .form .mail,
