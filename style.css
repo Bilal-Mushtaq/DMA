@@ -28,7 +28,7 @@
   justify-content: space-between;
   width: 80%;
   margin: auto;
-  padding: 11px 4px;
+  padding: 11px 14px;
 }
 .top-right {
   display: flex;
@@ -676,7 +676,7 @@ input[type="text"]:focus {
 .team-members {
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 1rem 2rem;
   width: 80%;
   margin: auto;
 }
@@ -738,7 +738,7 @@ input[type="text"]:focus {
 
 .booking-sec {
   background-color: rgb(24 30 78);
-  width: 80%;
+  width: 78%;
   display: flex;
   justify-content: space-between;
   margin: auto;
@@ -794,7 +794,7 @@ input[type="text"]:focus {
 .clients-sec {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 78%;
   margin: auto;
   margin-top: 4rem;
   /* margin-bottom: 1rem; */
